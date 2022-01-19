@@ -19,4 +19,6 @@ spec:
         ports:
         - containerPort: 80
         command:
-        - echo "this very long line abcdefghijklmnopqrsfsfsljsflksjflsjflksjflksjlkfjslkfjslkfsfjsljfslfjslfjslkfjslkfjsfjslkfjslfjslkfjslkfjslfjjfslfjslfjslfjslkfjslkfjsljfslkfjsljfslfjslkfjslfjsljflsjsfsfsfsfsddddddddddddddddddddddddddddddddddddddddddddddddddddddfdfsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssdfffffffffffffsg454352323"
+        - echo "this very long line abcdefghijklmnopqrsfsfsljsflksjflsjflksjflksjlkfjslkfjslkfsfjsljfslfjslfjslkfjslkfjsfjslkfjslfjslkfjslkfjslfjjfslfjslfjslfjslkfjslkfjsljfslkfjsljfslfjslkfjslfjsljflsjsfsfsfsfsddddddddddddddddddddddddddddddddddddddddddddddddddddddfdfsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssdfffffffffffffsg454352323" && \
+          echo "this very long line 2 jsffffffffffffffffffffffffffffffffffffffffflsjlkdddddddddddddddddddddddkjljljlkjdddddddddddddddddddd333333333333333333333333333333333333333333333333333333333333333333333333333333333ffffffffffffffhghhhhhhhhhhhhhhhhhhhhhhhhddddddddddddddddddddd" && \
+          echo "line 3"
