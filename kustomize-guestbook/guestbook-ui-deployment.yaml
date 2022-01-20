@@ -21,4 +21,8 @@ spec:
         env:
           - name: DATABASE_URL
             value: postgres://{{repl ConfigOption "database_user"}}:{{repl ConfigOption "database_password"}}@db.{{repl Namespace}}.svc.cluster.local:5432/db
+        command:
+          - echo "this very long line abcdefghijklmnopqrsfsfsljsflksjflsjflksjflksjlkfjslkfjslkfsfjsljfslfjslfjslkfjslkfjsfjslkfjslfjslkfjslkfjslfjjfslfjslfjslfjslkfjslkfjsljfslkfjsljfslfjslkfjslfjsljflsjsfsfsfsfsddddddddddddddddddddddddddddddddddddddddddddddddddddddfdfsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssdfffffffffffffsg454352323" && \
+          echo "this very long line 2 jsffffffffffffffffffffffffffffffffffffffffflsjlkdddddddddddddddddddddddkjljljlkjdddddddddddddddddddd333333333333333333333333333333333333333333333333333333333333333333333333333333333ffffffffffffffhghhhhhhhhhhhhhhhhhhhhhhhhddddddddddddddddddddd" && \
+          echo "line 3"
 
